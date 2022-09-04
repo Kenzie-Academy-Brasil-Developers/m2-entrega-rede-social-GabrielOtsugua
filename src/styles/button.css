@@ -1,0 +1,142 @@
+.primaryButton-1 {
+    width: 100%;
+    height: 35px;
+    border: transparent;
+    background-color: var(--brand-color-1);
+    color: var(--gray-color-1);
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: var(--text-3);
+    cursor: pointer;
+}
+
+.primaryButton-2 {
+    width: 100%;
+    height: 35px;
+    border: 1px solid var(--gray-color-4);
+    background-color: var(--gray-color-1);
+    color: var(--gray-color-5);
+    font-weight: var(--weight-2);
+    margin-bottom: 15px;
+    font-size: var(--text-3);
+    cursor: pointer;
+}
+
+.headerButton-1 {
+    display: block;
+    border: transparent;
+    padding: 4px 6px;
+    background-color: var(--gray-color-4);
+    color: var(--gray-color-2);
+    border-radius: 5px;
+    font-weight: var(--weight-2);
+    margin: 0 3px;
+}
+
+.headerButton-2 {
+    display: block;
+    border: transparent;
+    padding: 4px 6px;
+    background-color: var(--gray-color-5);
+    color: var(--gray-color-2);
+    border-radius: 5px;
+    font-weight: var(--weight-2);
+    margin: 0 3px;
+}
+
+.voltarButton {
+    display: block;
+    border: 1px solid var(--gray-color-4);
+    background-color: var(--gray-color-1);
+    color: var(--gray-color-5);
+    font-weight: var(--weight-2);
+    font-size: var(--text-2);
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.modalLoginButton {
+    display: block;
+    background-color: var(--gray-color-1);
+    color: var(--gray-color-6);
+    font-size: var(--text-2);
+    font-weight: var(--weight-2);
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.postarButton-1 {
+    display: block;
+    background-color: var(--gray-color-2);
+    color: var(--gray-color-3);
+    padding: 4px 6px;
+    font-size: var(--text-1);
+    font-weight: var(--weight-2);
+    border: transparent;
+    border-radius: 3px;
+}
+
+.postarButton-2 {
+    display: block;
+    background-color: var(--brand-color-1);
+    color: var(--gray-color-1);
+    padding: 4px 6px;
+    font-size: var(--text-1);
+    font-weight: var(--weight-2);
+    border: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.postButton {
+    display: block;
+    border: transparent;
+    padding: 10px;
+    background-color: var(--gray-color-5);
+    color: var(--gray-color-2);
+    border-radius: 5px;
+    font-weight: var(--weight-2);
+    cursor: pointer;
+}
+
+.likeButton {
+    cursor: pointer;
+}
+
+.followButton-1 {
+    background-color: var(--gray-color-1);
+    color: var(--gray-color-6);
+    border: 1px solid var(--gray-color-6);
+    padding: 3px 8px;
+    border-radius: 2px;
+    font-size: var(--text-2);
+    font-weight: var(--weight-2);
+    cursor: pointer;
+}
+
+.followButton-2 {
+    background-color: var(--brand-color-1);
+    color: var(--gray-color-1);
+    padding: 3px 8px;
+    border-radius: 2px;
+    border: transparent;
+    font-size: var(--text-2);
+    font-weight: var(--weight-2);
+    cursor: pointer;
+}
+
+.modalIndexButton {
+    border: transparent;
+    background-color: var(--gray-color-2);
+    color: var(--gray-color-4);
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: var(--text-3);
+    font-weight: var(--weight-1);
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}

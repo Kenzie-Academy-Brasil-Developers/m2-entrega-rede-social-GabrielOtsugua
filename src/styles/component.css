@@ -1,0 +1,24 @@
+:root {
+
+    --brand-color-1: #4263EB;
+
+    --gray-color-1: #FFFFFF;
+    --gray-color-2: #DEE2E6;
+    --gray-color-3: #868E96;
+    --gray-color-4: #495057;
+    --gray-color-5: #212529;
+    --gray-color-6: #0A0C0D;
+
+    --color-like: #D7443E;
+
+    --title-1: 20px;
+    --title-2: 28px;
+
+    --text-1: 12px;
+    --text-2: 14px;
+    --text-3: 16px;
+
+    --weight-1: 400;    
+    --weight-2: 500;
+    --weight-3: 600;
+}

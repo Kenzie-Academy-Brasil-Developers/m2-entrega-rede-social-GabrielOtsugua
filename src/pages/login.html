@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="../styles/component.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/modal-login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <h2>TechPosters</h2>
+
+        <nav>
+            <button class="headerButton-1">Login</button>
+            <button class="headerButton-2">Registro</button>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1>Login</h1>
+
+            <input class="input email" type="text" placeholder="Seu e-mail">
+            <input class="input password" type="text" placeholder="Sua senha">
+
+            <button class="primaryButton-1">Logar</button>
+            <p>Ainda não possui cadastro?</p>
+            <a href="../pages/cadastro.html"><button class="primaryButton-2">Ir para página de registro</button></a>
+        </div>
+    </main>
+
+<!-- MODAL - INICIO -->
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h3 class="modal-h3">Acesso não autorizado</h3>
+            <p class="modal-p">Essa conta não existe, logo não pode acessar a página dos posts.</p>
+            <div class="modal-div">
+                <button class="modalLoginButton">Entendi</button>
+            </div>
+        </div>
+    </div>
+
+<!-- MODAL - FIM -->
+
+    <script type="module" src="../scripts/models/api.js"></script>
+    <script type="module" src="../scripts/login.js"></script>
+</body>
+
+</html>

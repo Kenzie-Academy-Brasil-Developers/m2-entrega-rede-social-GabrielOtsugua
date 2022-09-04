@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="../styles/component.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <h2>TechPosters</h2>
+
+        <nav>
+            <button class="headerButton-2">Login</button>
+            <button class="headerButton-1">Registro</button>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <div class="div-header">
+                <h1>Cadastro</h1>
+                <a href="../pages/login.html"><button class="voltarButton">Voltar</button></a>
+            </div>
+
+            <input class="input username" type="text" placeholder="Seu nome">
+            <input class="input email" type="text" placeholder="Seu e-mail">
+            <input class="input password" type="text" placeholder="Sua senha">
+            <input class="input work" type="text" placeholder="Com o que trabalha">
+            <input class="input image" type="text" placeholder="URL da imagem que deseja usar">
+
+            <button class="primaryButton-1">Registrar</button>
+            <p>Já possui cadastro?</p>
+            <a href="../pages/login.html"><button class="primaryButton-2">Voltar a página de login</button></a>
+        </div>
+    </main>
+
+    <script type="module" src="../scripts/models/api.js"></script>
+    <script type="module" src="../scripts/cadastro.js"></script>
+</body>
+
+</html>
